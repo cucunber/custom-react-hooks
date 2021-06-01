@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 /**
- * 
+ * use to set new elements in sessionStorage and to interact with it
  * @param {string} key Key for defaultValue which will be used to get item out of sessionStorage 
  * @param {any} defaultValue Initial value which will be used to set item in sessionStorage
  * @returns {[any, React.Dispatch<any>]} returns value which includes sessionStorage item and function setValue which change sessionStorage item
